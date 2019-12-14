@@ -6,7 +6,7 @@ path = os.getcwd()
 #`This constant just manages which portal is about to be launched from portal gun it can either be 0 or 1
 PORTALNB = 0
 #used to progress levels
-LVLNB = 1
+LVLNB = 0
 DOORENTRD = True
 
 
