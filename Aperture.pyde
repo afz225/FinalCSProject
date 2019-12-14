@@ -6,7 +6,7 @@ path = os.getcwd()
 #`This constant just manages which portal is about to be launched from portal gun it can either be 0 or 1
 PORTALNB = 0
 #used to progress levels
-LVLNB = 0
+LVLNB = 1
 DOORENTRD = True
 
 
@@ -336,6 +336,7 @@ class Game:
             self.slist.append(Surface(0,380,145,"f","h"))
             self.slist.append(Surface(0,220,135,"c","h"))
             self.slist.append(Surface(158,0,200,"lw","v"))
+            self.slist.append(Surface(0,200,180,"lw","v", True))
             self.slist.append(Surface(145,380,309,"lw","v"))
             self.slist.append(Surface(145,689,185,"f","h"))
             self.slist.append(Surface(330,689,170,"f","h", True))
